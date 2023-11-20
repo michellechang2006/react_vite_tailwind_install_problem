@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body div {
+  @apply p-0 m-0 w-screen h-screen
+}
+
+nav {
+  @apply shadow-md
+}
+
+nav ul {
+  @apply flex flex-row justify-start items-center
+}
+
+nav li {
+  @apply mx-5 my-5 
+}
+
+nav li button{
+  @apply text-secondary 
+  
+}
+
+nav li button:hover{
+  @apply text-white
+}
+
+h1{
+  @apply font-bold text-2xl my-3 text-secondary
+}
+
+.tab-content{
+  @apply m-10 text-secondary
+}
+
+.tab-content p{
+ @apply break-words w-11/12
+}
